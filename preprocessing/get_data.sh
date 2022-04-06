@@ -1,8 +1,8 @@
 # Filename containing the CSV file of TCEs in the training set.
-TCE_CSV_FILE="${HOME}/TCE_subset.csv"
+TCE_CSV_FILE="./TCE_subset.csv"
 
 # Directory to download Kepler light curves into.
-KEPLER_DATA_DIR="${HOME}/kepler/"
+KEPLER_DATA_DIR="./kepler/"
 
 # Generate a bash script that downloads the Kepler light curves in the training set.
 python ./generate_download_script.py \
