@@ -5,7 +5,7 @@ TCE_CSV_FILE="${HOME}/TCE_subset.csv"
 KEPLER_DATA_DIR="${HOME}/kepler/"
 
 # Generate a bash script that downloads the Kepler light curves in the training set.
-python astronet/data/generate_download_script.py \
+python ./generate_download_script.py \
   --kepler_csv_file=${TCE_CSV_FILE} \
   --download_dir=${KEPLER_DATA_DIR}
 
